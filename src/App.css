@@ -1,0 +1,169 @@
+.recipe-image {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Keep the aspect ratio */
+  max-height: 400px; /* Limit the height */
+  object-fit: cover; /* Cover the container while maintaining the aspect ratio */
+  border-top-left-radius: 0.25rem; /* Rounded corners for the top */
+  border-top-right-radius: 0.25rem; /* Rounded corners for the top */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+}
+.recipe-image-container {
+  width: 100%; /* Set to 100% of its parent */
+  max-width: 600px; /* Maximum width of the image box */
+  margin: 0 auto; /* Center the image box */
+  overflow: hidden; /* Ensure the image does not overflow the container */
+  border: 1px solid #ddd; /* Optional border around the image box */
+  border-radius: 8px; /* Rounded corners for the image box */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+}
+
+.recipe-image {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Crop the image while maintaining aspect ratio */
+  border-radius: 8px; /* Match the image's corners with the container */
+}
+.recipe-title {
+  text-align: center; /* Center align the heading */
+  margin-bottom: 20px; /* Add space below the heading */
+  font-size: 2rem; /* Adjust font size as needed */
+  color: #333; /* Optional: Change color to fit your design */
+  font-weight: bold; /* Make the heading bold */
+}
+.pagination-container {
+  display: flex;
+  justify-content: center; /* Centers the pagination buttons */
+  align-items: center;
+  margin: 20px 0; /* Adds some vertical spacing */
+}
+
+.pagination-container button {
+  margin: 0 5px; /* Adds spacing between buttons */
+  padding: 10px 15px; /* Adjusts padding */
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination-container button:disabled {
+  background-color: #ccc; /* Light gray for disabled buttons */
+  cursor: not-allowed; /* Changes cursor to indicate disabled */
+}
+
+.pagination-container button:hover:not(:disabled) {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+.button-container {
+  display: flex;
+  justify-content: center; /* Centers the button horizontally */
+  margin-top: 10px; /* Optional: Adds spacing above the button */
+}
+
+.button-container .btn-primary {
+  padding: 10px 20px; /* Adjust padding if needed */
+  font-weight: bold; /* Optional: Adds emphasis */
+}
+
+.recipe-title {
+  font-weight: bold;       /* Makes the font bold */
+  text-align: center;      /* Centers the text */
+  font-size: 1.25rem;      /* Optional: Adjust font size */
+  margin-top: 10px;        /* Adds spacing above the title */
+}
+.custom-navbar {
+  background-color: #ff6f61; /* Light coral background color */
+  padding: 1rem;
+}
+
+.brand-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  margin-right: auto;
+  text-align: center;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffe4b5; /* Light golden color on hover */
+  text-decoration: underline;
+}
+.cuisine-list {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 20px 0; /* Add margin to separate from other elements */
+  display: flex; /* Use flexbox for alignment */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Center the items */
+}
+
+.cuisine-list li {
+  background-color: yellow; /* Light background for items */
+  border: 1px solid #dee2e6; /* Add a light border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px; /* Padding inside items */
+  margin: 5px; /* Margin between items */
+  font-weight: bold; /* Make the text bold */
+  transition: background-color 0.3s; /* Smooth background color transition */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.cuisine-list li:hover {
+  background-color: #e9ecef; /* Change background on hover */
+}
+.custom-navbar {
+  background-color:#dee2e6; /* Dark background for the navbar */
+}
+
+
+
+.brand-title {
+  color:#dee2e6; /* Dark gray text for the brand */
+  font-size: 28px; /* Larger font size for the brand title */
+  font-weight: 700; /* Bold font weight for emphasis */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-link {
+  margin-left: 20px; /* Increased margin between navigation links */
+  font-size: 18px; /* Font size for navigation links */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-button {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text color */
+  border: none; /* Remove default button border */
+  padding: 10px 20px; /* Padding for buttons */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size for buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .brand-title {
+      font-size: 24px; /* Adjust font size on smaller screens */
+  }
+
+  .nav-link {
+      font-size: 16px; /* Adjust font size on smaller screens */
+      margin-left: 15px; /* Margin adjustment for smaller screens */
+  }
+}
+
+
+
